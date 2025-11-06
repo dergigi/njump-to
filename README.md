@@ -1,6 +1,6 @@
 # njump.to
 
-[njump.to](https://njump.to) is a fast (and hopefully reliable) redirect service that provides a single URL to automatically forward users to a random njump mirror instance. Deployed on Vercel Edge Functions for maximum speed and global distribution.
+[njump.to](https://njump.to) is a fast (and hopefully reliable) redirect service that provides a single URL to automatically forward users to a random njump mirror instance.
 
 Don't know what njump is? Learn more at [njump.me/about](https://njump.me/about) or check out the source code at [fiatjaf/njump](https://github.com/fiatjaf/njump).
 
