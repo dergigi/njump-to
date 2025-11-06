@@ -60,12 +60,3 @@ Follow the prompts to link your project.
 1. Push this repository to GitHub
 2. Import the project in [Vercel Dashboard](https://vercel.com/dashboard)
 3. Vercel will automatically deploy on every push
-
-## Domain Configuration
-
-1. In Vercel dashboard, go to your project settings
-2. Navigate to "Domains"
-3. Add `njump.to` (and optionally `www.njump.to`)
-4. Update your DNS records as instructed by Vercel:
-   - Add the CNAME or A record provided by Vercel
-   - Wait for DNS propagation (usually a few minutes)
