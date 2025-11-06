@@ -1,8 +1,12 @@
 # njump.to
 
-Fast, reliable redirect service that randomly forwards users to available njump instances. Deployed on Vercel Edge Functions for maximum speed and global distribution.
+Fast, reliable redirect service that provides a single URL (`https://njump.to/`) that automatically forwards users to a random njump mirror instance. Deployed on Vercel Edge Functions for maximum speed and global distribution.
+
+**Live at: [https://njump.to/](https://njump.to/)**
 
 ## How it works
+
+The service provides a single, memorable URL (`https://njump.to/`) that automatically forwards to a random njump mirror, eliminating the need to remember or choose between multiple instances.
 
 - Randomly selects from: njump.me, nostr.at, nostr.eu, nostr.ae, nostr.com
 - Preserves all paths and query parameters
