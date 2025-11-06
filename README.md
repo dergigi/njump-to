@@ -37,9 +37,9 @@ Want to add a mirror? Please open a PR!
 
 `nostr.com` doesn't seem to resolve root-level NIP-05 identifiers correctly, for example:
 
-- [nostr.com/dergigi.com](https://nostr.com/dergigi.com) `=>` fails, redirects to nostr.com
-- [nostr.com/@dergigi.com](https://nostr.com/@dergigi.com) `=>` fails (can't decode profile)
-- [nostr.com/_@dergigi.com](https://nostr.com/_@dergigi.com) `=>` succeeds
+- [nostr.com/dergigi.com](https://nostr.com/dergigi.com) → fails, redirects to nostr.com
+- [nostr.com/@dergigi.com](https://nostr.com/@dergigi.com) → fails (can't decode profile)
+- [nostr.com/_@dergigi.com](https://nostr.com/_@dergigi.com) → succeeds
 
 However, all three of these identifiers should be treated the same as per [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md#showing-just-the-domain-as-an-identifier).
 
