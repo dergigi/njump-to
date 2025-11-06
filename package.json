@@ -1,6 +1,6 @@
 {
   "name": "njump-to",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Fast redirect service that randomly forwards to njump instances",
   "main": "api/index.js",
   "type": "module",
