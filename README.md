@@ -4,6 +4,8 @@ Fast, reliable redirect service that provides a single URL (`https://njump.to/`)
 
 **Live at: [https://njump.to/](https://njump.to/)**
 
+> Don't know what njump is? Learn more at [https://njump.me/about](https://njump.me/about)
+
 ## How it works
 
 The service provides a single, memorable URL (`https://njump.to/`) that automatically forwards to a random njump mirror, eliminating the need to remember or choose between multiple instances.
