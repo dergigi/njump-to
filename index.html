@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>njump.to - Redirecting...</title>
+  <script>
+    var targetUrls = [
+      "https://njump.me",
+      "https://nostr.at",
+      "https://nostr.eu",
+      "https://nostr.ae",
+      "https://nostr.com"
+    ];
+
+    // Get the current path and query string
+    var path = window.location.pathname.substring(1); // Remove leading slash
+    var query = window.location.search; // Includes the '?' if present
+
+    // Randomly select an instance
+    var randomIndex = Math.floor(Math.random() * targetUrls.length);
+    var selectedInstance = targetUrls[randomIndex];
+
+    // Build the target URL
+    var targetUrl = path 
+      ? selectedInstance + '/' + path + query 
+      : selectedInstance + query;
+
+    // Redirect immediately
+    window.location.href = targetUrl;
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>
+
