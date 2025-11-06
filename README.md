@@ -13,6 +13,16 @@ The service provides a single, memorable URL (`https://njump.to/`) that automati
 - Runs on Vercel's edge network for sub-10ms response times
 - Zero dependencies, minimal code
 
+## Mirror List
+
+The service randomly forwards to one of the following njump mirror instances:
+
+- [njump.me](https://njump.me)
+- [nostr.at](https://nostr.at)
+- [nostr.eu](https://nostr.eu)
+- [nostr.ae](https://nostr.ae)
+- [nostr.com](https://nostr.com)
+
 ## Development
 
 ```bash
