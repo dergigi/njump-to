@@ -6,6 +6,16 @@ const INSTANCES = [
   'https://nostr.com'
 ];
 
+// Helper to get header value (works with both Headers object and plain object)
+function getHeader(headers, name) {
+  if (!headers) return null;
+  if (typeof headers.get === 'function') {
+    return headers.get(name) || headers.get(name.toLowerCase());
+  }
+  // Plain object - check both original and lowercase
+  return headers[name] || headers[name.toLowerCase()] || null;
+}
+
 export default async function handler(request) {
   // Get path and query from request URL
   let path = '';
@@ -19,10 +29,10 @@ export default async function handler(request) {
       url = new URL(request.url);
     } else {
       // Construct full URL from headers
-      const host = request.headers.get('host') || 
-                   request.headers.get('x-forwarded-host') || 
+      const host = getHeader(request.headers, 'host') || 
+                   getHeader(request.headers, 'x-forwarded-host') || 
                    'localhost';
-      const protocol = request.headers.get('x-forwarded-proto') || 'https';
+      const protocol = getHeader(request.headers, 'x-forwarded-proto') || 'https';
       const requestPath = request.url || '/';
       url = new URL(requestPath, `${protocol}://${host}`);
     }
