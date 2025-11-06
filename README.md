@@ -15,8 +15,8 @@ The service provides a single, memorable URL (`njump.to`) that automatically for
 ### Examples
 
 - [njump.to](https://njump.to) → redirects to random njump instance
-- [njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc](https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc) → redirects to random instance with the npub
-- [njump.to/nevent1qqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4gpzamhxue69uhhyetvv9ujuer9wfnkjemf9e3k7mgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxjc476g](https://njump.to/nevent1qqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4gpzamhxue69uhhyetvv9ujuer9wfnkjemf9e3k7mgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxjc476g) → redirects to random instance with the nevent
+- [njump.to/npub1derg...xzpc](https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc) → redirects to random instance with the npub
+- [njump.to/nevent1qqs...476g](https://njump.to/nevent1qqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4gpzamhxue69uhhyetvv9ujuer9wfnkjemf9e3k7mgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxjc476g) → redirects to random instance with the nevent
 - [njump.to/dergigi.com](https://njump.to/dergigi.com) → redirects to random instance with NIP-05 profile
 
 ## Mirror List
