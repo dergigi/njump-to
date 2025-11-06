@@ -69,10 +69,3 @@ Follow the prompts to link your project.
 4. Update your DNS records as instructed by Vercel:
    - Add the CNAME or A record provided by Vercel
    - Wait for DNS propagation (usually a few minutes)
-
-## Architecture
-
-- **Runtime**: Vercel Edge Runtime (runs at edge locations worldwide)
-- **Function**: Single edge function at `api/index.js`
-- **Instances**: 5 njump mirrors for redundancy
-- **No dependencies**: Pure JavaScript using Web APIs
