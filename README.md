@@ -2,9 +2,9 @@
 
 Fast, reliable redirect service that provides a single URL (`https://njump.to/`) that automatically forwards users to a random njump mirror instance. Deployed on Vercel Edge Functions for maximum speed and global distribution.
 
-**Live at: [https://njump.to/](https://njump.to/)**
+**Live at: [njump.to/](https://njump.to/)**
 
-> Don't know what njump is? Learn more at [https://njump.me/about](https://njump.me/about) or check out the source code at [https://github.com/fiatjaf/njump](https://github.com/fiatjaf/njump)
+> Don't know what njump is? Learn more at [njump.me/about](https://njump.me/about) or check out the source code at [github.com/fiatjaf/njump](https://github.com/fiatjaf/njump)
 
 ## How it works
 
@@ -25,7 +25,7 @@ The service randomly forwards to one of the following njump mirror instances:
 - [nostr.ae](https://nostr.ae)
 - [nostr.com](https://nostr.com)
 
-Want to add a mirror? Please open a pull request at [https://github.com/dergigi/njump-to](https://github.com/dergigi/njump-to)!
+Want to add a mirror? Please open a pull request at [github.com/dergigi/njump-to](https://github.com/dergigi/njump-to)!
 
 ## Development
 
