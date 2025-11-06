@@ -1,0 +1,17 @@
+{
+  "name": "njump-to",
+  "version": "1.0.0",
+  "description": "Fast redirect service that randomly forwards to njump instances",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel"
+  },
+  "devDependencies": {
+    "vercel": "^34.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
