@@ -43,7 +43,7 @@ Want to add a mirror? Please open a PR!
 
 However, all three of these identifiers should be treated the same as per [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md#showing-just-the-domain-as-an-identifier).
 
-(Note that [njump.me/dergigi.com](https://njump.me/dergigi.com) resolves just fine on njump.me and the other mirrors, so this seems to be a nostr.com issue.)
+Note that [njump.me/dergigi.com](https://njump.me/dergigi.com) resolves just fine on njump.me and the other mirrors, so this seems to be a nostr.com issue.
 
 ## Contributors
 
