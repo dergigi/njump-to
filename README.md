@@ -25,7 +25,7 @@ The service randomly forwards to one of the following njump mirror instances:
 - [nostr.ae](https://nostr.ae)
 - [nostr.com](https://nostr.com)
 
-Want to add a mirror? Please open a pull request at [github.com/dergigi/njump-to](https://github.com/dergigi/njump-to)!
+Want to add a mirror? Please open a PR!
 
 ## Development
 
