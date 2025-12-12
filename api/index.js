@@ -1,3 +1,5 @@
+import { LRUCache } from './lru.js';
+
 export const config = {
   runtime: 'edge',
 };
@@ -10,6 +12,8 @@ const INSTANCES = [
   'https://nostr.com'
 ];
 
+const cache = new LRUCache();
+
 // Helper to get header value (works with both Headers object and plain object)
 function getHeader(headers, name) {
   if (!headers) return null;
@@ -19,8 +23,14 @@ function getHeader(headers, name) {
   return headers[name] || headers[name.toLowerCase()] || null;
 }
 
-function buildTargetUrl(path, query) {
-  const instance = INSTANCES[Math.floor(Math.random() * INSTANCES.length)];
+function getTargetUrl(path, query) {
+  let instance = cache.get(path);
+
+  if (!instance) {
+    instance = INSTANCES[Math.floor(Math.random() * INSTANCES.length)];
+    cache.set(path, instance);
+  }
+
   return path ? `${instance}/${path}${query}` : `${instance}${query}`;
 }
 
@@ -44,6 +54,5 @@ export default async function handler(request) {
     query = queryPart ? `?${queryPart}` : '';
   }
   
-  return Response.redirect(buildTargetUrl(path, query), 302);
+  return Response.redirect(getTargetUrl(path, query), 302);
 }
-
