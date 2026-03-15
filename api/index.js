@@ -4,6 +4,7 @@ export const config = {
 
 const INSTANCES = [
   'https://njump.me',
+  'https://njump.foo',
   'https://nostr.at',
   'https://nostr.eu',
   'https://nostr.ae',

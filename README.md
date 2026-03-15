@@ -26,6 +26,7 @@ The service provides a single, memorable URL (`njump.to`) that automatically for
 The service randomly forwards to one of the following njump mirror instances:
 
 - [njump.me](https://njump.me)
+- [njump.foo](https://njump.foo)
 - [nostr.at](https://nostr.at)
 - [nostr.eu](https://nostr.eu)
 - [nostr.ae](https://nostr.ae)
