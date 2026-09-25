@@ -6,8 +6,7 @@ const INSTANCES = [
   'https://njump.me',
   'https://nostr.at',
   'https://nostr.eu',
-  'https://nostr.ae',
-  'https://nostr.com'
+  'https://nostr.ae'
 ];
 
 // Helper to get header value (works with both Headers object and plain object)

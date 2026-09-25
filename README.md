@@ -8,7 +8,7 @@ Don't know what njump is? Learn more at [njump.me/about](https://njump.me/about)
 
 The service provides a single, memorable URL (`njump.to`) that automatically forwards to a random njump mirror, eliminating the need to remember or choose between multiple instances.
 
-- Randomly selects from: njump.me, nostr.at, nostr.eu, nostr.ae, nostr.com
+- Randomly selects from: njump.me, nostr.at, nostr.eu, nostr.ae
 - Preserves all paths and query parameters
 - Zero dependencies, minimal code
 
@@ -29,21 +29,8 @@ The service randomly forwards to one of the following njump mirror instances:
 - [nostr.at](https://nostr.at)
 - [nostr.eu](https://nostr.eu)
 - [nostr.ae](https://nostr.ae)
-- [nostr.com](https://nostr.com)
 
 Want to add a mirror? Please open a PR!
-
-## Known Issues
-
-`nostr.com` doesn't seem to resolve root-level NIP-05 identifiers correctly, for example:
-
-- [nostr.com/dergigi.com](https://nostr.com/dergigi.com) → fails, redirects to nostr.com
-- [nostr.com/@dergigi.com](https://nostr.com/@dergigi.com) → fails (can't decode profile)
-- [nostr.com/_@dergigi.com](https://nostr.com/_@dergigi.com) → succeeds
-
-However, all three of these identifiers should be treated the same as per [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md#showing-just-the-domain-as-an-identifier).
-
-Note that [njump.me/dergigi.com](https://njump.me/dergigi.com) resolves just fine on njump.me and the other mirrors, so this seems to be a nostr.com issue.
 
 ## Contributors
 
